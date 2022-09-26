@@ -26,7 +26,7 @@ import {
 
 header();
 footer();
+calltoaction();
 lazy();
 lottie();
 scrollToAnchor();
-calltoaction();

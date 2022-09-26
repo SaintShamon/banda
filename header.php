@@ -16,7 +16,7 @@
 	endif;
 ?>
 <body <?php body_class($body_classes); ?>>
-    <div class="overlay"></div>
+
     <div class="site">
         <?php 
 	get_template_part('template-parts/header/header'); ?>

@@ -57,6 +57,8 @@ img
 .slick-slider
 	.slick-dots
 		bottom: 83px
+		+max-screen(1200px)
+			bottom: 43px
 		li.slick-active
 
 			button
@@ -104,7 +106,7 @@ img
 	height: 50px
 	text-align: center
 	border-radius: 50%
-	border: 1px solid $color-primary
+	border: 1px solid $color-blue
 	position: fixed
 	bottom: 30px
 	right: 30px
@@ -119,16 +121,16 @@ img
 
 		transform: rotate(-90deg)
 		path
-			fill: $color-primary
+			fill: $color-blue
 	&:hover
 		cursor: pointer
 		background-color: #FFF
-		border: 1px solid $color-primary
+		border: 1px solid $color-red
 		opacity: 1
 		visibility: visible
 		svg
 			path
-				fill: $color-primary
+				fill: $color-red
 
 	&:active
 		background-color: #555

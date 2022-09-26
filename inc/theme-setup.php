@@ -18,13 +18,10 @@ function theme_setup(){
 	//main menu
 	register_nav_menus(
 		array( 
-			'main-menu' => __( 'Main Menu', 'jotul' ),
-			'lang-menu' => __( 'Language Menu', 'jotul' ),
-			'footer-menu-1' => __( 'Footer Menu 1', 'jotul'),
-			'footer-menu-2' => __( 'Footer Menu 2', 'jotul'),
-			'footer-menu-3' => __( 'Footer Menu 3', 'jotul'),
-			'footer-menu-4' => __( 'Footer Menu 4', 'jotul'),
-			'footer-menu-bottom' => __( 'Bottom footer menu', 'jotul'),
+			'main-menu' => __( 'Main Menu', 'banda' ),
+			'burger-menu' => __( 'Burger Menu', 'banda' ),
+			'footer-menu-1' => __( 'Footer Menu left', 'banda'),
+			'footer-menu-2' => __( 'Footer Menu right', 'banda'),
 		)
     );
     
